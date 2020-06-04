@@ -7,7 +7,10 @@ export default class OtchetButton extends Component {
             console.log('121245')
         }
         return (
-            <button onClick={handleClick}>
+            <button
+                onClick={handleClick}
+                className='btn btn-light'
+            >
                 Отчет
             </button>
         )

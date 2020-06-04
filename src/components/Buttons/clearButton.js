@@ -7,7 +7,10 @@ export default class ClearButton extends Component{
             console.log('12')
         }
         return (
-            <button onClick={handleClick}>
+            <button
+                onClick={handleClick}
+                className='btn btn-light'
+            >
                 Очистить
             </button>
         )

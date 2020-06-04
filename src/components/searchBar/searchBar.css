@@ -1,12 +1,10 @@
-.form {
-    border: none;
-    text-align: center;
-    height: 100px;
-    font-size: 18px;
-}
-button {
-    font-size: 25px;
-}
 input {
-    font-size: 15px;
+    outline: none;
+    border: none;
+    border: solid 1px #f2f2f2;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
 }

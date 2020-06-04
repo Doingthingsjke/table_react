@@ -7,7 +7,10 @@ export default class SearchButton extends Component {
             console.log('1223')
         }
         return (
-            <button onClick={handleClick}>
+            <button
+                onClick={handleClick}
+                className='btn btn-light'
+            >
                 Поиск
             </button>
         )

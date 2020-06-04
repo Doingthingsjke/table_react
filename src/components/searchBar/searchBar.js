@@ -22,18 +22,39 @@ class SearchBar extends Component {
 
     render() {
         return (
-            <form className={'form'}>
-                <AddButton />
+            <div>
+                <AddButton/>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
                 Дата подачи заявки с
+                &nbsp;
+                &nbsp;
+                &nbsp;
                 <input
-                    type={'date'}
-                    placeholder={'21'}
+                    type='text'
+                    placeholder={'20.02.2020'}
                 />
+                &nbsp;
+                &nbsp;
+                &nbsp;
                 до
-                <input type={'date'}
-                         placeholder={'1231245'}
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <input
+                    type='text'
+                    placeholder={'20.02.2020'}
                 />
                 <SearchButton/>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
                 <input
                     type="text"
                     placeholder="Текст для поиска"
@@ -41,8 +62,10 @@ class SearchBar extends Component {
                     onChange={this.handleFilterTextChange}
                 />
                 <ClearButton/>
+                &nbsp;
+                &nbsp;
                 <OtchetButton/>
-            </form>
+            </div>
         );
     }
 }

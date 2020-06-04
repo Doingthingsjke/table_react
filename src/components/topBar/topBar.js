@@ -14,23 +14,20 @@ class TopBar extends Component {
 
             let anotherStuff = () => {
                 return(
-                    console.log('22'),
                     <div>
-                        <h1>
-                            Hello, WOrld!
-                        </h1>
+                        <h1>Hello World!</h1>
                     </div>
                 )
             }
             return (
             <div className={'topbar'}>
-                <button>Одобренные</button>
-                <button onClick={handleClick}>Ждут одобрения</button>
-                <button onClick={anotherStuff}>Не выигранные</button>
-                <button>Выигранные/Подписанные</button>
-                <button>Отклоненные</button>
-                <button>Архив</button>
-                <button>Все</button>
+                <button type="button" className="btn btn-outline-light">Одобренные</button>
+                <button type="button" className="btn btn-outline-light" onClick={handleClick}>Ждут одобрения</button>
+                <button type="button" className="btn btn-outline-light" onClick={anotherStuff}>Не выигранные</button>
+                <button type="button" className="btn btn-outline-light">Выигранные/Подписанные</button>
+                <button type="button" className="btn btn-outline-light">Отклоненные</button>
+                <button type="button" className="btn btn-outline-light">Архив</button>
+                <button type="button" className="btn btn-outline-light">Все</button>
             </div>
         )
     }

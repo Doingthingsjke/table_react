@@ -1,11 +1,5 @@
-topbar {
-    width: 90%;
-    height: 90%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: auto;
-    white-space: nowrap;
-    text-align: center;
-    font-size: 0;
+div {
+    padding-top: 0.5rem;
+    justify-content: space-around;
+    width: 100%;
 }

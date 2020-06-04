@@ -8,13 +8,13 @@ class NewString extends Component {
 
         return (
             <tr>
-                <td>{product.sostoyanie}</td>
-                <td>{product.nomer}</td>
-                <td>{product.name}</td>
-                <td>{product.opisanieRaboti}</td>
-                <td>{product.dataZayavki}</td>
-                <td>{product.dataTorgov}</td>
-                <td>{product.dataOdobreniya}</td>
+                <td className='td-1'>{product.sostoyanie}</td>
+                <td className='td-2'>{product.nomer}</td>
+                <td className='td-3'>{product.name}</td>
+                <td className='td-4'>{product.opisanieRaboti}</td>
+                <td className='td-5'>{product.dataZayavki}</td>
+                <td className='td-6'>{product.dataTorgov}</td>
+                <td className='td-7'>{product.dataOdobreniya}</td>
             </tr>
         );
     }
@@ -43,7 +43,7 @@ class ProductTable extends Component{
         });
 
         return (
-            <table className={'table'}>
+            <table className='table table-striped table-borderless table-hover'>
                 <thead>
                 <tr>
                     <th></th>

@@ -8,7 +8,10 @@ export default class AddButton extends Component{
             alert('kakoi-to text')
         }
         return (
-            <button className={'button button1'} onClick={addInfo}>
+            <button
+                className='btn btn-outline-primary btn-lg button1'
+                onClick={addInfo}
+            >
                 Добавить
             </button>
         )

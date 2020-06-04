@@ -35,6 +35,7 @@ class FillTable extends Component {
                     inStockOnly={this.state.inStockOnly}
                     onFilterTextChange={this.handleFilterTextChange}
                     onInStockChange={this.handleInStockChange}/>
+                &nbsp;
                 <ProductTable
                     products={this.props.products}
                     filterText={this.state.filterText}

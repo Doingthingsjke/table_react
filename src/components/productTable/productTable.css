@@ -1,24 +1,40 @@
 .table {
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     text-align: left;
-    border-collapse: separate;
-    border-spacing: 5px;
-    color: #656665;
-    border-radius: 20px;
-    margin: auto;
+    font-size: 18px;
+    color: #242424;
+    width: 100%;
+
+}
+
+.table-striped {
+    color: #FCFCFC;
 }
 td {
+    position: static;
     font-size: 15px;
-    padding: 15px;
     text-align: left;
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     color: black;
 }
+.td-1 {
+    color: #CDCDCD;
+}
+.td-2 {
+    color: #969696;
+}
+.td-3 {
+    color: #5164C7;
+}
 th {
-    padding-left: 20px;
-    padding-right: 30px;
+    position: static;
     text-align: left;
     font-size: 13px;
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-    color: darkgrey;
+    color: #969696;
+    font-weight: bold;
+}
+
+.table-hover {
+    color: #F5F7FF
 }

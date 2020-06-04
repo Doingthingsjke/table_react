@@ -7,11 +7,15 @@ class App extends Component {
         render()
         {
             return (
-                <div className={'container'}>
-                    <TopBar/>
-                    <FillTable
-                    products={this.props.products}/>
-                </div>
+                    <div className={'container'}>
+                        <div className='topbar'>
+                            <TopBar/>
+                        </div>
+                        <div>
+                            <FillTable
+                                products={this.props.products}/>
+                        </div>
+                    </div>
             );
         }
     }
